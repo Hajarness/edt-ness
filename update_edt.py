@@ -2,7 +2,21 @@ import datetime
 import requests
 from icalendar import Calendar, Event
 
-URL = "https://edt.uvsq.fr/Home/GetCalendarData"
+BASE_URL = "https://edt.uvsq.fr"
+DATA_URL = f"{BASE_URL}/Home/GetCalendarData"
+
+session = requests.Session()
+headers = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+    "Accept": "application/json, text/javascript, */*; q=0.01",
+    "Accept-Language": "fr-FR,fr;q=0.9",
+    "Origin": BASE_URL,
+    "Referer": f"{BASE_URL}/cal?vt=agendaWeek&et=group&fid0=S5%20MIASHS",
+    "X-Requested-With": "XMLHttpRequest",
+}
+
+# 1. Récupération automatique du cookie de session Celcat
+session.get(f"{BASE_URL}/cal?vt=agendaWeek&et=group&fid0=S5%20MIASHS", headers=headers, timeout=30)
 
 today = datetime.date.today()
 start_date = (today - datetime.timedelta(days=14)).strftime("%Y-%m-%d")
@@ -17,14 +31,11 @@ payload = {
     "colourScheme": "3",
 }
 
-headers = {
-    "User-Agent": "Mozilla/5.0",
-    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-    "X-Requested-With": "XMLHttpRequest",
-}
+resp = session.post(DATA_URL, data=payload, headers=headers, timeout=30)
+print("Status:", resp.status_code, "Length:", len(resp.text))
+if not resp.text.strip():
+    raise RuntimeError(f"Réponse vide du serveur (HTTP {resp.status_code}).")
 
-resp = requests.post(URL, data=payload, headers=headers, timeout=30)
-resp.raise_for_status()
 events_data = resp.json()
 
 cal = Calendar()
