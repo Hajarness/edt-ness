@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UVSQ EDT//FR
+BEGIN:VEVENT
+UID:-1742255826:1073733534:17:4817055:17@edt.uvsq.fr
+DTSTART:20261209T130000
+DTEND:20261209T140000
+SUMMARY:
+DESCRIPTION:CM\n\n\n\n\nL3 MIASHS S5 ( S5 MIASHS ) [S5 MIASHS]\nL3 Saclay Sociologie [LXSOC3_26]\n\n\n\n\nAmphi  3 - SSH [Amphith&#233;&#226;tre]\n\n\n\n\nLSSO501-Sociologie : analyse de donn&#233;es [LSSO501]\n\n\n\n\nVic SESSEGO\n\n\n\n\nSessego, Vic\n
+END:VEVENT
+BEGIN:VEVENT
+UID:-1742255826:1073733534:17:4817057:17@edt.uvsq.fr
+DTSTART:20261209T103000
+DTEND:20261209T120000
+SUMMARY:
+DESCRIPTION:TD\n\n\n\n\nL3 MIASHS S5 ( S5 MIASHS ) [S5 MIASHS]\nSOCIOLOGIE - L3 - TD1 [SOCIOLOGIE - L3 - TD1]\n\n\n\n\nA304 info\n\n\n\n\nLSSO501-Sociologie : analyse de donn&#233;es [LSSO501]\n\n\n\n\nVic SESSEGO\n\n\n\n\nSessego, Vic\n
+END:VEVENT
+BEGIN:VEVENT
+UID:-1742255826:1073733534:17:5784689:17@edt.uvsq.fr
+DTSTART:20261208T094000
+DTEND:20261208T111000
+SUMMARY:
+DESCRIPTION:CM\n\n\n\n\nL3 MIASHS S5 ( S5 MIASHS ) [S5 MIASHS]\n\n\n\n\nAMPHI H - FERMAT (114 / 61) [Amphith&#233;&#226;tre]\n\n\n\n\nLSMA540-Statistiques en Sciences Humaines et Sociales [LSMA540]\n\n\n\n\nGrimaud, Agnes\n
+END:VEVENT
+BEGIN:VEVENT
+UID:-1742255826:1073733534:17:5784693:17@edt.uvsq.fr
+DTSTART:20261208T112000
+DTEND:20261208T125000
+SUMMARY:
+DESCRIPTION:CM\n\n\n\n\nL3 MIASHS S5 ( S5 MIASHS ) [S5 MIASHS]\n\n\n\n\nAMPHI G - FERMAT (117 / 57) [Amphith&#233;&#226;tre]\n\n\n\n\nLSMA500*-Introduction &#224; la topologie &amp; au calcul diff&#233;rentiel [LSMA500*]\n\n\n\n\nSieuzac, Romain\n
+END:VEVENT
+BEGIN:VEVENT
+UID:-1742255826:1073733534:17:5784702:17@edt.uvsq.fr
+DTSTART:20261208T135000
+DTEND:20261208T170000
+SUMMARY:
+DESCRIPTION:TD\n\n\n\n\nL3 MIASHS S5 ( S5 MIASHS ) [S5 MIASHS]\n\n\n\n\n122 - DESCARTES (MASTER) [CARTABLE NUMERIQUE ]\n\n\n\n\nLSMA500*-Introduction &#224; la topologie &amp; au calcul diff&#233;rentiel [LSMA500*]\n\n\n\n\nSieuzac, Romain\n
+END:VEVENT
+BEGIN:VEVENT
+UID:-1742255826:1073733534:17:5818071:17@edt.uvsq.fr
+DTSTART:20261210T094000
+DTEND:20261210T125000
+SUMMARY:
+DESCRIPTION:TD\n\n\n\n\nL3 MIASHS S5 ( S5 MIASHS ) [S5 MIASHS]\n\n\n\n\nAMPHI B - DESCARTES (160 / 85) [Amphith&#233;&#226;tre]\n\n\n\n\nLSMA540-Statistiques en Sciences Humaines et Sociales [LSMA540]\n\n\n\n\nGrimaud, Agnes\n
+END:VEVENT
+BEGIN:VEVENT
+UID:-1742255826:1073733534:17:5822802:17@edt.uvsq.fr
+DTSTART:20261209T140000
+DTEND:20261209T153000
+SUMMARY:
+DESCRIPTION:TD\n\n\n\n\nL3 MIASHS S5 ( S5 MIASHS ) [S5 MIASHS]\nSOCIOLOGIE - L3 - TD2 [SOCIOLOGIE - L3 - TD2]\n\n\n\n\nLSSO501-Sociologie : analyse de donn&#233;es [LSSO501]\n\n\n\n\nVic SESSEGO\n\n\n\n\nSessego, Vic\n
+END:VEVENT
+BEGIN:VEVENT
+UID:-1742255826:1073733534:17:5833610:17@edt.uvsq.fr
+DTSTART:20261209T080000
+DTEND:20261209T100000
+SUMMARY:
+DESCRIPTION:CM\n\n\n\n\nL3 Economie-Gestion parcours Finance, Environnement, D&#233;veloppement [LDECG3_26]\nL3 MIASHS S5 ( S5 MIASHS ) [S5 MIASHS]\n\n\n\n\nAmphi  3 - SSH [Amphith&#233;&#226;tre]\n\n\n\n\nLEECO552-Finance de March&#233; [LEECO552]\n\n\n\n\nLy, Alpha\n
+END:VEVENT
+BEGIN:VEVENT
+UID:-1742255826:1073733534:17:5833664:17@edt.uvsq.fr
+DTSTART:20261207T103000
+DTEND:20261207T123000
+SUMMARY:
+DESCRIPTION:CM\n\n\n\n\nL3 Economie-Gestion parcours Finance, Environnement, D&#233;veloppement [LDECG3_26]\nL3 MIASHS S5 ( S5 MIASHS ) [S5 MIASHS]\n\n\n\n\nAmphi  Condorcet [Amphith&#233;&#226;tre]\n\n\n\n\nLEECO529-Monnaie et finance internationale [LEECO529]\n\n\n\n\nNaphle, Francois\n
+END:VEVENT
+END:VCALENDAR
